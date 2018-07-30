@@ -40,7 +40,7 @@ def selective_tweet_shortener(tweet)
 end 
 
 def shortened_tweet_truncator(tweet)
-  tweet[0..139] << " ..."
+  truncatedtweet[0..139] << " ..."
 end
 
 
